@@ -7,6 +7,7 @@
 //
 
 #import "ViewControllerLuo.h"
+#import "test01ViewController.h"
 
 @interface ViewControllerLuo ()
 
@@ -18,6 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor greenColor];
+    
+    //第一个方法测试
+    [test01ViewController logAnything];
+    
+    //第二个方法
+    [test01ViewController outPutSomething];
+    
 }
 
 

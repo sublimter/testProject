@@ -10,4 +10,14 @@
 
 @interface test01ViewController : UIViewController
 
+/**
+ *  测试提供的方法01
+ */
++ (void)logAnything;
+
+/**
+ *  测试的方法02
+ */
++ (void)outPutSomething;
+
 @end
