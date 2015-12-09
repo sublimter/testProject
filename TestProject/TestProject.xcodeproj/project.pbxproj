@@ -13,6 +13,8 @@
 		C798BA741C17FD6400818269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C798BA721C17FD6400818269 /* Main.storyboard */; };
 		C798BA761C17FD6400818269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C798BA751C17FD6400818269 /* Assets.xcassets */; };
 		C798BA791C17FD6400818269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C798BA771C17FD6400818269 /* LaunchScreen.storyboard */; };
+		C798BA831C18070500818269 /* ViewControllerLuo.m in Sources */ = {isa = PBXBuildFile; fileRef = C798BA811C18070500818269 /* ViewControllerLuo.m */; };
+		C798BA841C18070500818269 /* ViewControllerLuo.xib in Resources */ = {isa = PBXBuildFile; fileRef = C798BA821C18070500818269 /* ViewControllerLuo.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		C798BA751C17FD6400818269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C798BA781C17FD6400818269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C798BA7A1C17FD6400818269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C798BA801C18070500818269 /* ViewControllerLuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLuo.h; sourceTree = "<group>"; };
+		C798BA811C18070500818269 /* ViewControllerLuo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLuo.m; sourceTree = "<group>"; };
+		C798BA821C18070500818269 /* ViewControllerLuo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerLuo.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				C798BA771C17FD6400818269 /* LaunchScreen.storyboard */,
 				C798BA7A1C17FD6400818269 /* Info.plist */,
 				C798BA691C17FD6300818269 /* Supporting Files */,
+				C798BA801C18070500818269 /* ViewControllerLuo.h */,
+				C798BA811C18070500818269 /* ViewControllerLuo.m */,
+				C798BA821C18070500818269 /* ViewControllerLuo.xib */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C798BA791C17FD6400818269 /* LaunchScreen.storyboard in Resources */,
+				C798BA841C18070500818269 /* ViewControllerLuo.xib in Resources */,
 				C798BA761C17FD6400818269 /* Assets.xcassets in Resources */,
 				C798BA741C17FD6400818269 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C798BA711C17FD6400818269 /* ViewController.m in Sources */,
+				C798BA831C18070500818269 /* ViewControllerLuo.m in Sources */,
 				C798BA6E1C17FD6400818269 /* AppDelegate.m in Sources */,
 				C798BA6B1C17FD6400818269 /* main.m in Sources */,
 			);
@@ -298,6 +308,7 @@
 				C798BA7F1C17FD6400818269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
